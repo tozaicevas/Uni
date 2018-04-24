@@ -51,7 +51,7 @@ void push_back(Node **HEAD, int data)
 {
     while (*HEAD)
         HEAD = &(*HEAD)->next;
-    *HEAD = malloc(sizeof(*HEAD));         
+    *HEAD = malloc(sizeof(**HEAD));         
     (*HEAD)->data = data;
     (*HEAD)->next = NULL;
 }
