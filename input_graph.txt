@@ -1,0 +1,7 @@
+Course_Name: Courses, that have to be taken beforehand (separated with spaces)
+Math_Analysis:
+Calculus:
+OOP: Math_Analysis
+Procedural_programming: OOP
+Functional_programming: Procedural_programming Calculus
+Computational_theory: Functional_programming
