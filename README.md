@@ -1,2 +1,2 @@
 # uni
-Lab works at uni
+**Small** lab works at uni
